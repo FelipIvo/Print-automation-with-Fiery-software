@@ -9,6 +9,7 @@ Sumário
 •	Captura de tela
 •	Conclusões
 •	Autores
+
 Sobre o projeto
 Este repositório contém uma solução para o projeto Automação de Impressão com o uso do software Fiery voltado para as impressoras Xerox C70 e C60. A automação também pode ser adaptada para outras impressoras que utilizam o software Fiery para configuração de impressão. O projeto foi desenvolvido inicialmente no Visual Studio Code, utilizando majoritariamente a biblioteca PyAutoGUI. Essa biblioteca é amplamente utilizada para a automação de comandos do mouse e do teclado, permitindo interações dinâmicas com interfaces gráficas. Um de seus pontos positivos é a facilidade de implementação e a independência de ferramentas externas, tornando-a uma escolha acessível para quem está iniciando em automação com Python.
 Desafio: O desafio principal consistiu em criar um processo automatizado para configurar e gerenciar tarefas de impressão através do software Fiery. Embora os desafios encontrados durante o desenvolvimento tenham sido poucos, algumas adequações foram necessárias, principalmente relacionadas a detalhes nas funções e comportamentos específicos do software.
@@ -20,16 +21,19 @@ About the project
 This repository contains a solution for the Printing Automation project using Fiery software for the Xerox C70 and C60 printers. The automation can also be adapted to other printers that use Fiery software for printing configuration. The project was initially developed in Visual Studio Code, using mainly the PyAutoGUI library. This library is widely used for automating mouse and keyboard commands, allowing dynamic interactions with graphical interfaces. One of its strengths is its ease of implementation and independence from external tools, making it an accessible choice for those starting out in automation with Python.
 Challenge: The main challenge was to create an automated process to configure and manage printing jobs using Fiery software. Although there were few challenges encountered during development, some adjustments were necessary, mainly related to details in the specific functions and behaviors of the software.
 This project can be useful for professionals who want to optimize printing processes and learn more about the possibilities of automation with Python in a corporate environment.
+
 Linguagens e tecnologias usadas
 •	Visual Studio Code
 •	Python 3.11.9
 •	Markdown
+
 Bibliotecas usadas
 •	Win32api
 •	Os
 •	Time
 •	Pyautogui
 •	Pymsgbox
+
 Passo a passo das soluções
 1. Entrada de dados do usuário
 •	O programa solicita ao usuário três entradas:
@@ -80,5 +84,6 @@ Um ponto interessante do PyAutoGUI é sua simplicidade na simulação de intera�
 •	Tempos de espera arbitrários: É necessário definir intervalos entre os comandos para evitar erros, e esses intervalos podem variar dependendo da velocidade do computador ou da rede, o que torna o script menos robusto.
 Apesar das limitações, o código criado demonstra ser funcional e eficiente para realizar automações com o software Fiery, podendo ser adaptado para outros fluxos de trabalho que envolvam sistemas de impressão. Adaptações adicionais seriam necessárias para automatizar tarefas específicas, como login no sistema, reconhecimento automático de arquivos corretos para impressão e a geração de relatórios baseados em dados de impressão.
 Autores
+
 Criado por Felipe Ivo da Silva e João Pedro Iannoni Milaré 
 
